@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View android:background="@color/piGreen"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:layout_height="2dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:id="@+id/textView8"
+            android:gravity="center_vertical|end"
+            android:layout_margin="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/distance"
+            android:gravity="center_vertical|end"
+            android:layout_margin="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="meters"
+            android:gravity="center_vertical|start"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:id="@+id/textView10"
+            android:gravity="center_vertical|end"
+            android:layout_margin="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:gravity="center_vertical|end"
+            android:layout_margin="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:text="seconds"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Average Speed"
+            android:gravity="center_vertical|end"
+            android:layout_margin="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/speed"
+            android:gravity="center_vertical|end"
+            android:layout_margin="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:text="m/sec"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Date of Run"
+            android:id="@+id/textView9"
+            android:gravity="center_vertical|end"
+            android:layout_margin="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:gravity="center_vertical|end"
+            android:layout_margin="10dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

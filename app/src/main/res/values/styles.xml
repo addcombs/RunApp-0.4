@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/dGreen</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/piGreen</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/lGreen</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight & colorSwitchThumbNormal. -->
+        <item name="@android:textColor">@color/dGrey</item>
+
+        <item name="android:textViewStyle">@style/RobotoText</item>
+        <item name="android:buttonStyle">@style/RobotoButton</item>
+        <item name="android:actionBarStyle">@style/RobotoActionBar</item>
+
+    </style>
+
+    <style name="AppActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/AppTitleTextStyle</item>
+    </style>
+
+    <style name="AppTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoText" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>
